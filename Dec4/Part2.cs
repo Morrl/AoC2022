@@ -36,44 +36,4 @@ public class Part2
         return (start, end);
 
     }
-    // public static void Calculate()
-    // {
-    //     Console.WriteLine("Part2");
-    //     var lines = File.ReadLines("Input.txt").ToList();
-    //     int containedPairs = 0;
-    //
-    //     foreach (var line in lines)
-    //     {
-    //         var subStrings = line.Split(",");
-    //         var first = GetRangeFromString(subStrings[0]);
-    //         var last = GetRangeFromString(subStrings[1]);
-    //
-    //         if (first.Any(x => last.Contains(x)) || last.Any(x => first.Contains(x)))
-    //         {
-    //             containedPairs++;
-    //         }
-    //         
-    //     }
-    //     
-    //     Console.WriteLine("Result");
-    //     Console.WriteLine(containedPairs);
-    //     
-    //
-    // }
-    //
-    // public static List<int> GetRangeFromString(string input)
-    // {
-    //     string[] boundries = input.Split("-");
-    //     int first = Int32.Parse(boundries[0]);
-    //     int last = Int32.Parse(boundries[1]);
-    //     List<int> result = new List<int>();
-    //
-    //     for (int i = first; i <= last; i++)
-    //     {
-    //         result.Add(i);
-    //     }
-    //
-    //     return result;
-    //
-    // }
 }
