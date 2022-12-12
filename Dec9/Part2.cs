@@ -52,16 +52,6 @@ public static void Calculate()
                 
                 for (var j = 1; j < knots.Count; j++)
                 {
-                    // var knot = knots[j];
-                    // var aheadPos = knots[j - 1];
-                    // double dist = knot.DistanceTo(aheadPos);
-                    // if (!knot.Equals(aheadPos) && dist >= 2)
-                    // {
-                    //     // knots[j] = aheadOldPos.Clone() as Position;
-                    //     knots[j].SetPosition(aheadPos.OldPosition);
-                    //
-                    //
-                    // }
                     var head = knots[j - 1];
                     var currentPosition = knots[j].Clone() as Position;
 
